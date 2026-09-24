@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import restaurants from "./data/restaurants";
 import RestaurantCard from "./components/RestaurantCard";
 import RestaurantDetails from "./pages/RestaurantDetails";
+import Reservation from "./pages/Reservation";
 
 function HomePage() {
   const [search, setSearch] = useState("");
@@ -105,6 +106,10 @@ function App() {
         <Route
           path="/restaurant/:id"
           element={<RestaurantDetails />}
+        />
+        <Route
+          path="/reservation"
+          element={<Reservation />}
         />
       </Routes>
     </>

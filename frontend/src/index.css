@@ -328,3 +328,27 @@ input {
 .reserve-link:hover {
   background: #333;
 }
+
+.reserve-button {
+  display: block;
+  width: 100%;
+
+  margin-top: 30px;
+  padding: 15px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #111;
+  color: white;
+
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+.reserve-button:hover {
+  background: #333;
+}
